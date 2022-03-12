@@ -14,17 +14,11 @@
   <url type="bugtracker">https://github.com/tork-a/rtmros_nextage/issues</url>
   <url type="repository">https://github.com/tork-a/rtmros_nextage</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>hironx_moveit_config</build_depend>
-  <build_depend>nextage_ros_bridge</build_depend>
-
-  <run_depend>hironx_moveit_config</run_depend>
   <run_depend>moveit_planners</run_depend>
   <run_depend>moveit_ros</run_depend>
   <run_depend>moveit_ros_move_group</run_depend>
   <run_depend>moveit_ros_planning_interface</run_depend>
   <run_depend>moveit_ros_visualization</run_depend>
-  <run_depend>nextage_ros_bridge</run_depend>
   <run_depend>moveit_simple_controller_manager</run_depend>
   <run_depend>trac_ik_kinematics_plugin</run_depend>
 
