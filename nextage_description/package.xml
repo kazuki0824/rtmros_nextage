@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="3">
   <name>nextage_description</name>
   <version>0.8.6</version>
   <description>As a part of rtmros_nextage package that is a ROS interface for <a href = "http://nextage.kawada.jp/en/">Nextage</a> dual-armed robot from Kawada Robotics Inc, this package provides its 3D model that can be used in simulation and <a href = "http://ros.org/wiki/moveit">MoveIt!</a>-based motion planning tasks.
@@ -14,8 +14,10 @@
   <url type="bugtracker">https://github.com/tork-a/rtmros_nextage/issues</url>
   <url type="repository">https://github.com/tork-a/rtmros_nextage</url>
 
-  <build_depend>urdf</build_depend>
-  <run_depend>urdf</run_depend>
+  <depend>xacro</depend>
+  <depend>urdf</depend>
 
-  <export/>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

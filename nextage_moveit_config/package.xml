@@ -14,6 +14,7 @@
   <url type="bugtracker">https://github.com/tork-a/rtmros_nextage/issues</url>
   <url type="repository">https://github.com/tork-a/rtmros_nextage</url>
 
+  <buildtool_depend>ament_cmake</buildtool_depend>
   <run_depend>moveit_planners</run_depend>
   <run_depend>moveit_ros</run_depend>
   <run_depend>moveit_ros_move_group</run_depend>
@@ -25,4 +26,7 @@
   <test_depend>joint_state_publisher</test_depend>
   <test_depend>robot_state_publisher</test_depend>
 
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>
